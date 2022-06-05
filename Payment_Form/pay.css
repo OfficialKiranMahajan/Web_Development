@@ -9,8 +9,9 @@ body {
 .container {
     background-color: #02020213;
     padding: 5px 20px 15px 20px;
-    border: 1px solid lightgray;
+    border: 1px solid rgb(128, 67, 226);
     border-radius: 4px;
+    box-shadow: right;
 }
 
 input[type="text"],
@@ -34,19 +35,30 @@ fieldset{
 }
 
 .payment_form{
+    color: white;
     text-align: center;
+    background: rgb(90, 110, 224);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 6px;
 }
 
 input[type="button"]{
-background-color: rgb(128, 153, 238);
+font-size: 20px;
+    background-color: rgb(198, 85, 226);
 color: white;
 padding: 12px 20px;
 border: none;
-border-radius: 5px;
+border-radius: 6px;
 width: 100%;
 cursor: pointer;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 input[type="button"]:hover{
-    background-color: cadetblue;
+    background-color: rgb(128, 247, 98);
+
+}
+#star{
+    font-size: larger;
 }
